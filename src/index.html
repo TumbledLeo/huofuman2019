@@ -1,0 +1,838 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function IsPC() {
+            var userAgentInfo = navigator.userAgent;
+            var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+            var flag = true;
+            for (var v = 0; v < Agents.length; v++) {
+                if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                    flag = false;
+                    break;
+                }
+            }
+            return flag;
+        }
+
+        if (!IsPC()) {
+            // 跳转到电脑板的网址
+            window.location.href = 'm/index.html';
+        }
+    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>国家大剧院制作奥芬巴赫歌剧《霍夫曼的故事》</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="shortcut icon" type="image/x-icon" href="http://www.chncpa.org/subsite/gjj2018/images/favicon.ico">  
+    <link rel="stylesheet" href="lib/animate.min.css">
+    <link rel="stylesheet" href="lib/roll.css">
+    <link rel="stylesheet" href="lib/swiper.min.css">
+    <!-- <link rel="stylesheet" href="lib/progress.css"> -->
+    <link rel="stylesheet" href="css/index.css">
+<style>
+*{outline:none;}
+div{border:none}
+</style>
+</head>
+
+<body>
+    <audio src="media/0.mp3" autoplay="autoplay" loop="loop" id="aud">
+        您的浏览器不支持 audio 标签。
+    </audio>
+    <audio src="media/1.mp3"  loop="loop" id="aud1">
+        您的浏览器不支持 audio 标签。
+    </audio>
+    <audio src="media/2.mp3"  loop="loop" id="aud2">
+        您的浏览器不支持 audio 标签。
+    </audio>
+    <audio src="media/3.mp3"  loop="loop" id="aud3">
+        您的浏览器不支持 audio 标签。
+    </audio>
+    <audio src="media/4.mp3"  loop="loop" id="aud4">
+        您的浏览器不支持 audio 标签。
+    </audio>
+    <audio src="media/5.mp3"  loop="loop" id="aud5">
+        您的浏览器不支持 audio 标签。
+    </audio>
+    <audio src="media/6.mp3"  loop="loop" id="aud6">
+        您的浏览器不支持 audio 标签。
+    </audio>
+    <div class="logo"> 
+            <a href="http://www.chncpa.org/" class="lo" target="_block"><img src="images/logo.png" alt=""></a>    
+            <div class="set"><a href="javascript:;" class="music play music_bg" ><img src="images/music.png" alt=""></a></div>
+            <ul>
+                <li data="banner" class="active"><a href="javascript:;">首页</a></li>
+                <li data="jmjq"><a href="javascript:;">剧目剧情</a></li>
+                
+                <li data="rqbd" ><a href="javascript:;">人气班底</a></li>
+                <li data="ds"><a href="javascript:;">轻歌剧大师奥芬巴赫</a></li>
+                <li data="ldsx"><a href="javascript:;">亮点赏析</a></li>
+                <li data="mhtm"><a href="javascript:;">幕后探秘</a></li>
+                <li data="mtbd"><a href="javascript:;">媒体之声</a></li>
+            </ul>
+            <a href="http://www.chncpa.org/" class="lo1" target="_block"><img src="images/logo1.png" alt=""></a> 
+    </div>
+    <div class="banner" style="margin-top:-56px;">
+        <div class="inner">
+              <div class="lun">
+                <ul class="cf">
+                    <li class="left wow slideInUp" data-wow-duration="2s"><img class="lu" src="images/l_1.png" alt=""><h3><img src="images/h_1.png" alt=""></h3><img class ="hb" src="images/h_b.png" alt=""></li>
+                    <li class="left wow slideInDown"data-wow-duration="2s"><img class="lu" src="images/l_2.png" alt=""><h3><img src="images/h_2.png" alt=""></h3><img class ="hb" src="images/h_b.png" alt=""></li>
+                    <li class="left wow slideInUp"data-wow-duration="2s"><img class="lu"src="images/l_3.png" alt=""><h3><img src="images/h_3.png" alt=""></h3><img class ="hb" src="images/h_b.png" alt=""></li>
+                    <li class="left wow slideInDown"data-wow-duration="2s"><img class="lu"src="images/l_4.png" alt=""><h3><img src="images/h_4.png" alt=""></h3><img class ="hb" src="images/h_b.png" alt=""></li>
+                    <li class="left wow slideInUp"data-wow-duration="2s"><img class="lu"src="images/l_5.png" alt=""><h3><img src="images/h_5.png" alt=""></h3><img class ="hb" src="images/h_b.png" alt=""></li>
+                    <li class="left wow slideInDown"data-wow-duration="2s"><img class="lu"src="images/l_6.png" alt=""><h3><img src="images/h_6.png" alt=""></h3><img class ="hb" src="images/h_b.png" alt=""></li>
+                </ul>
+                <ol class="cf">
+                    <li class="left"><img src="images/left_bg.png" alt="">
+                        <img class="q1" src="images/q_1.png" alt="">
+                        <img class="q2" src="images/q_2.png" alt="">
+                        <img class="q3" src="images/q_3.png" alt="">
+                        <img class="q4" src="images/q_4.png" alt="">
+                    </li>
+                    <li class="left right"><img src="images/right_bg.png" alt="">
+                        <img class="q5" src="images/q_5.png" alt="">
+                        <img class="q6" src="images/q_7.png" alt="">
+                        <img class="q7" src="images/q_6.png" alt="">
+                        
+                    </li>
+                </ol>
+              </div>  
+             <div class="tit">
+                 <img src="images/tit.png" alt="">
+                 <a href="http://ticket.chncpa.org/product-1060186.html" class="dp" target="_block"><img src="images/dp.png" alt=""></a>
+             </div>   
+        </div>   
+    </div>
+    <div class="jmjq">
+        <div class="inner">
+            <h4><img src="images/jmjq_t.png" alt=""></h4>
+            <div class="boom">
+                <ol class="tabs cf big">
+                    <li class="tab left active"><a href="">剧目介绍</a></li> 
+                    <li class="tab left"><a href="">分幕剧情</a></li>
+                    <li class="tab left"><a href="">背景花絮</a></li>     
+                </ol>
+                <ul class="tabContents">
+                    <li class="tabContent" style="width:94%;margin:0 auto;">
+                        <p>《霍夫曼的故事》是轻歌剧大师雅克·奥芬巴赫晚年创作的最后一部作品，也是他最为著名的歌剧作品之一。剧中男主角的原型是德国作家、诗人E.T.A 霍夫曼，歌剧讲述了霍夫曼和三个女人奇异怪诞的爱情故事，霍夫曼不断经历美妙的爱情，但每段爱情却都以悲剧收场，一次又一次的打击让诗人对于爱情的渴望越来越少，并最终全情投入到艺术和诗歌当中。本剧堪称是奥芬巴赫最优美的传世篇章，在音乐方面可谓是华彩满章，有花腔女高音唱段“玩偶之歌”和浪漫唯美的威尼斯“船歌”等。在艺术性上，也达到了前所未有的高度，舞台呈现集浪漫唯美和奇幻诡谲为一体，让观众大呼过瘾。</p>
+                        <p>国家大剧院版《霍夫曼的故事》首演于2013年，是国际著名歌剧导演弗朗切斯卡·赞贝罗携手知名舞美设计彼得·戴维森，继大剧院版《卡门》之后的另一强势之作。美轮美奂的舞台设计，古典与现代艺术碰撞的奇异服饰，带领着观众游走多个浪漫国度。</p>
+                        <p>霍夫曼的故事</p>
+                         <p>五幕幻想歌剧</p>   
+                         <p>作曲：雅克 · 奥芬巴赫</p>    
+                         <p>剧本：于勒 · 巴比耶</p>   
+                         <p>根据于勒 · 巴比耶与米歇尔 · 卡雷的戏剧创作而成</p>   
+                         <p>编辑：迈克尔 · 凯，让 - 克里斯托夫 · 凯克</p>    
+                    </li>
+                    <li class="tabContent sml">
+                        <ol class="tochs cf">
+                            <li class="toch active">第一幕</li>
+                            <li class="toch">第二幕</li>
+                            <li class="toch">第三幕</li>
+                            <li class="toch">第四幕</li>
+                            <li class="toch">第五幕</li>
+                            
+                        </ol>
+                        <ul class="contents">
+                            <li class="content">
+                                <p>诗人霍夫曼独自坐在纽伦堡冷清的吕特酒馆中，他仰慕的女明星斯特拉正在隔壁的歌剧院主演歌剧《唐璜》。艺术女神缪斯想得到霍夫曼的心，她变出葡萄酒与啤酒的精灵吸引霍夫曼的注意，自己则化身为霍夫曼的朋友尼克劳斯。霍夫曼的情敌参议员林多尔夫走进酒馆，他买通了斯特拉的仆人，得到一封斯特拉写给霍夫曼的信，里面有一把她化妆间的钥匙。林多尔夫决定取代霍夫曼，获得斯特拉的青睐。一群吵闹的大学生走进酒馆，与霍夫曼和尼克劳斯一喝酒，学生们催霍夫曼讲故事，于是他唱起一首名叫克列扎可的奇怪侏儒的民谣，唱着唱着，他开始转而讲述他的悲惨的恋爱故事。</p>
+                            </li>
+                            <li class="content"><p>
+                                在巴黎的一间实验室，神秘博士斯帕朗扎尼发明了一个机械娃娃，叫做奥林匹亚。不明真相的霍夫曼来到这里，并对奥林匹亚一见钟情。这时，科学怪人高佩琉斯来卖给霍夫曼一副有魔力的眼镜，戴上后，奥林匹亚看上去就和真人一样。斯帕朗扎尼向高佩琉斯购买了奥林匹亚的眼睛，并给他开了500个达克特（ducat，欧洲钱币）的假支票。不久，参加博士的宴会的客人陆续前来看望奥林匹亚，上过发条的奥林匹亚唱了一曲咏叹调“玩偶之歌”迷住了霍夫曼，他急切地向奥林匹亚表白自己的感情，并邀她跳起了舞。这时奥林匹亚的发条出了故障，她飞速转动着出了房间，把霍夫曼摔倒在地。碰巧气急败坏的高佩琉斯回来要找斯帕朗扎尼算账，暴怒的他将奥林匹亚拆成一个个零件，摔破了眼镜的霍夫曼惊讶的瞪着成为碎片的奥林匹亚，周围的人们都嘲笑他愚蠢的爱上玩偶。
+
+                            </p></li>
+                            <li class="content"><p>
+                                在慕尼黑一间废弃的歌剧院，霍夫曼的第二个女朋友，热爱唱歌的女孩安东尼娅正坐在钢琴前唱一首悲哀的情歌，她的父亲克里斯佩尔禁止她唱歌，因为她已故的母亲遗传给她心脏病，唱歌对她是致命的。他严厉嘱咐老仆弗朗兹不要让任何人进屋。这时霍夫曼和尼克劳斯偷偷来探病，霍夫曼向安东尼娅发誓永恒的爱情，他们快乐的唱起了情歌。这时女孩的父亲回来，霍夫曼便藏了起来。巫师医生米拉克勒博士（Dr. Miracle），上门出诊，他假意请她唱一两句歌来听听她的嗓音。由于米拉克勒曾医死了安东尼娅的母亲，女孩的父亲担心他图谋不轨，将他赶了出去。当女孩的父亲和霍夫曼离开后，米拉克勒突然出现，他利用成为歌唱家的虚荣诱惑安东尼娅，并用巫术使女孩已故母亲的灵魂现身，劝说女孩唱歌。随着米拉克勒的蛊惑，安东尼娅越唱越激动，直到崩溃倒地。霍夫曼和克里斯佩尔冲进房间时，女孩已经死去。克里斯佩尔责怪霍夫曼害了自己的女儿，并威胁要杀了他，幸亏尼克劳斯及时出现解救了霍夫曼。
+
+
+
+                            </p></li>
+                            <li class="content"><p>
+                                在威尼斯运河上的一所高级妓院，交际花朱丽叶塔与尼克劳斯一同唱着优美的船歌。霍夫曼在众宾客中独自喝着酒，精神颓唐。朱丽叶塔邀请霍夫曼去她的房间，尼克劳斯警告霍夫曼要当心，但霍夫曼否认自己对朱丽叶塔的兴趣。朱丽叶塔的情人施莱密尔暗暗嫉妒霍夫曼讨得朱丽叶塔的欢心。黑魔法师达佩图托用一串闪耀的钻石项链诱惑朱丽叶塔，唆使她偷取霍夫曼的影子，之前施莱密尔的影子便是被达佩图托偷走，朱丽叶塔同意了。不出所料，朱丽叶塔的美色使得霍夫曼爱上了她，霍夫曼向施莱密尔要求朱丽叶塔房间的钥匙，被拒绝后他与施莱密尔决斗，并用达佩图托给的魔剑将施莱密尔杀死。朱丽叶塔劝说霍夫曼为了自己的安全离开威尼斯，但请求霍夫曼把他的镜中倒影留给自己，因为她无法忍受与霍夫曼分离，恋爱中的霍夫曼同意了。他走后，朱丽叶塔与她的新欢，驼背的皮蒂基纳乔偷偷离开了，这时霍夫曼才意识到她不仅背叛了自己，还骗取了他的影子。担心霍夫曼杀人被捕，尼克劳斯再次把他救走。
+
+
+                            </p></li>
+                            <li class="content"><p>
+                                霍夫曼讲完了三个的故事，只想继续用酒精麻醉自己，忘记令人心碎的爱情。这时，演出大获成功的斯特拉走进酒馆，但酩酊大醉的诗人已经神志不清倒在桌上，斯特拉失望地同殷勤的议员林多尔夫一同离开。霍夫曼感到辛酸绝望，再度唱起克列扎可的民谣，倒在桌子上大醉不醒。最后，缪斯女神现身，她鼓励诗人专心艺术创作，发现自己内在的崇高，霍夫曼不是通过女人的爱，而是通过音乐、诗歌和艺术得到了救赎。 
+
+
+
+                            </p></li>
+                        </ul>
+                    </li>
+                    <li class="tabContent">
+                        <div class="scroll_wrap scroll_wrap1">
+                            <div class="scroll_cont scroll_cont1">
+                                <h6>“霍夫曼”人物原型</h6>
+                                <p>《霍夫曼的故事》中霍夫曼确有其人，他就是德国作家、诗人E.T.A霍夫曼。广为人知的芭蕾舞剧《胡桃夹子》和《葛佩莉亚》就是他的作品。在E.T.A霍夫曼的童话作品中，常常弥漫着一种神秘怪诞、充满幻想的气质。《霍夫曼的故事》 中很多角色和元素都是取材于E.T.A霍夫曼的小说、故事中。</p>
+                                <p>霍夫曼本人非常嗜酒，酒也成为了《霍夫曼的故事》剧中非常重要的元素。酒是所有人的朋友，酒精灵为诗人带来了灵感，诗人感情失败时也在酒精中沉沦。开篇一段“酒之精灵”合唱轻盈舒展，充满梦幻气息。全剧在歌剧院旁的一件小酒馆展开，喝的醉醺c醺的霍夫曼就在这里给众人讲述了他的三段爱情故事。</p>
+                                <h6>电影中出现的奥芬巴赫的音乐</h6>
+                                <p>《红磨坊》:就算不知道《霍夫曼的故事》的作曲家雅克·奥芬巴赫，你也一定听过他的“康康舞曲”，在妮可基德曼主演的《红磨坊》中，巴黎舞女在康康舞曲的伴奏下跳的踢腿舞恐怕是很多人对红磨坊最初的印象。其实，奥芬巴赫是和小约翰。施特劳斯同时期的作曲家，曾被罗西尼称作“香榭丽舍的莫扎特”，他的音乐手法简洁，曲调优美轻快，旋律令人“过耳不忘”。</p>
+                                <p>《美丽人生》:《霍夫曼的故事》 中最有名的就数这首“船歌如果从法文直译过来，这首歌应该叫做“美之夜，爱之夜”。</p>
+                                <p>在贝尼尼的经典电影《美丽人生》中出现了主多在歌剧院追求他的“公主”的一幕，当所有人都看着华丽舞台上缓缓驶出的贡多拉船，男主角却全神贯注看美女。影片末尾，在纳粹集中营，圭多偷偷用广播喇叭表达对妻子的爱意，船歌的旋律再次出现，代表着永恒的爱情。</p>
+                                <p>《曲终梦回》: 1951年， 美国电影《曲终梦回》用电影的形式展现了这部经典歌剧，电影采用芭蕾舞剧的表现方式，人物设置如迪斯尼动画片一般，坏人凶神恶煞，女主角楚楚动人，还有霍夫曼在开头和结尾所唱的“侏儒之歌”，配以提线木偶的小矮人手舞足蹈，令人印象深刻。</p>
+                                 <h6>“霍夫曼”首演故事</h6>
+                                 <p> 1881年2月，《霍夫曼的故事》 巴黎首演，全城瞩目。演出结束后，全体观众从座位上站了起来，向作品和作曲家致敬，如此整齐划一的敬意在喜歌剧院相当少见。在演出的第一年，《霍夫曼的故事》在巴黎重演了100场，在以后的六年里它被重演了400场，并成为国际演出剧目中最受喜爱的作品。</p>
+                                 <p>在19世纪末的法国，奥芬巴赫和他的巴黎意大利剧院已经不能被遗忘在巴黎享乐日程之外了，对外国人来说，去巴黎却不去看奥芬巴赫的戏简直是不可思议。如果当年有TimeOut巴黎的话，奥芬巴赫的新戏一定和当季香榭丽舍大街的时尚潮流并列榜首。</p>
+                                 <h6>复古科幻和蒸汽朋克</h6>
+                                 <p>《霍夫曼的故事》中的科幻元素在19世纪可谓相当前卫，剧中充满了浪漫和奇幻元素。剧中有诗人，酒精灵，缪斯女神，女明星，有科学怪人，机器娃娃，巫师医生，还有唱歌的鬼魂，高级妓女，黑魔法师等22个角色。三个故事几乎是三个独立的小歌剧，每一段都充满令人惊叹的想象。</p>
+                                 <p>奥芬巴赫的作品中常出现让人吃惊的超前科技性。19世纪中后期恰逢欧洲工业革命，冶金术的发展、机械制造业的进步让人的想象力得到空前鼓舞。《霍夫曼的故事》剧中的高佩琉斯就是这样一位致力于人造人的“神秘博士”，他最成功的作品就是机器娃娃奥林匹亚。她和霍夫曼这种人与机器人之间的爱情无疑大大超越了那个时代。</p>
+                                 <p>《霍夫曼的故事》剧中的服装设计是古典与现代风格的奇异碰撞，正如整部剧的风格，在复古的整体格局中泛着超越时代的先锋气质。19世纪欧洲进入工业革命的背景下，巴洛克官廷式的奢华和蒸汽朋克”腔调巧妙的结合在一起，透着一种说不清的时尚感。剧中还有许多有趣的小道具，比如第二幕中，科学怪人高佩琉斯出售的魔术眼镜，戴上之后，机器人看上去像真人一样。</p>
+                                 
+                            </div>
+                            <div class="scroll_bar scroll_bar1">
+                                <div class="scroll_slider scroll_slider1"></div>
+                            </div>
+                        
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="rqbd">
+        <div class="inner">
+            <h4><img src="images/rqbd_t.png" alt=""></h4>
+            <ol class="tabs cf " style="margin-top:0;">
+                <li class="tab left active"><a href="">主创</a></li> 
+                <li class="tab left"><a href="">主演</a></li> 
+            </ol>
+            <!-- <li class="right"><a target="_block"href="http://ticket.chncpa.org/product-1060186.html" class="lj">了解更多</a></li> -->
+            <ul class="tabContents">
+                <li class="tabContent" style="position: relative"> 
+                    <a target="_block"href="http://ticket.chncpa.org/product-1060186.html" class="lj" style="color:#f5ee81;position:absolute;right:0;top:-60px;font-size: 18px;">了解更多 ></a>
+                    <div class="swiper-container  swiper-container11">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <ul class="zc">
+                                    <li><img src="images/1.png" alt=""><p>平夏斯·斯坦伯格<br/>指挥</p></li>
+                                    <li><img src="images/2.png" alt=""><p>弗兰切斯卡·赞贝罗<br/>导演</p></li>
+                                    <li><img src="images/3.png" alt=""><p>彼得·戴维森<br/>舞美设计</p></li>
+                                    <li><img src="images/4.png" alt=""><p>查尔斯·奎金<br/>舞美设计</p></li>
+                                    <li><img src="images/5.png" alt=""><p>库尔特·沃森<br/>服装设计</p></li>
+                                    <li><img src="images/6.png" alt=""><p>丹妮·塞耶斯<br/>编舞</p></li>
+                                    <li><img src="images/7.png" alt=""><p>马克·麦科库洛夫<br/>灯光设计</p></li>
+                                    <li><img src="images/10.png" alt=""><p>塞缪尔·科卡尔<br/>合唱指挥</p></li>
+                                </ul>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <ul class="more cf">
+                                    <!-- <li class="left"><img src="images/9.png" alt=""><p>阿蕾桑德拉·潘泽沃尔塔<br/>复排编舞</p></li> -->
+                                    <li class="left"><a target="_block"href="http://ticket.chncpa.org/product-1060186.html" class="lj">了解更多</a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <!-- <div class="swiper-button-prev swiper-button-prev1"></div>
+                        <div class="swiper-button-next swiper-button-next1"></div> -->
+                    </div>
+                </li>
+                <li class="tabContent" style="position: relative"> 
+                        <a target="_block"href="http://ticket.chncpa.org/product-1060186.html" class="lj" style="color:#f5ee81;position:absolute;right:0;top:-60px;font-size: 18px;">了解更多 ></a>
+                        <div class="swiper-container swiper-container2 swiper-container11">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <ul class="zc">
+                                        <li><img src="images/y1.png" alt=""><p>彼得·松 饰 霍夫曼</p></li>
+                                        <li><img src="images/y2.png" alt=""><p>陈勇 饰 霍夫曼</p></li>
+                                        <li><img src="images/y3.png" alt=""><p>宝拉·加尔迪娜 饰 <br/>尼克劳斯/缪斯</p></li>
+                                        <li><img src="images/y4.png" alt=""><p>张亚洁 饰 <br/>尼克劳斯/缪斯</p></li>
+                                        <li><img src="images/y5.png" alt=""><p>叶卡捷琳娜·巴卡诺娃 饰<br/> 安东尼娅</p></li>
+                                        <li><img src="images/y6.png" alt=""><p>宋元明 饰 安东尼娅</p></li>
+                                        <li><img src="images/y7.png" alt=""><p>南茜·法比奥拉·埃雷拉 饰<br/> 朱丽叶塔</p></li>
+                                        <li><img src="images/y8.png" alt=""><p>王宏尧 饰 朱丽叶塔</p></li>
+                                    </ul>
+                                </div>
+                                <div class="swiper-slide">
+                                        <ul class="zc">
+                                            <li><img src="images/y9.png" alt=""><p>达丽娅·捷列霍娃 饰 <br/>奥林匹亚</p></li>
+                                            <li><img src="images/y10.png" alt=""><p>张文沁 饰 奥林匹亚</p></li>
+                                            <li><img src="images/y11.png" alt=""><p>德米特里·乌利扬诺夫 饰 <br/>林多尔夫/高佩琉斯/米拉克勒/达佩图托</p></li>
+                                            <li><img src="images/y12.png" alt=""><p>吴蔚 饰 林多尔夫/<br/>高佩琉斯/米拉克勒/达佩图托</p></li>
+                                            <li><img src="images/y13.png" alt=""><p>迪特马尔·克什鲍姆 饰 安德烈/科申尼勒/弗朗兹/皮蒂基纳乔</p></li>
+                                            <li><img src="images/y14.png" alt=""><p>梁羽丰 饰 <br/>纳塔内尔/斯帕朗扎尼</p></li>
+                                            <li><img src="images/y15.png" alt=""><p>金久湝 饰 <br/>安东尼娅的母亲</p></li>
+                                            <li><img src="images/y16.png" alt=""><p>王鹤翔 饰 <br/>施莱密尔/赫尔曼</p></li> 
+                                        </ul>
+                                    </div>
+                                <div class="swiper-slide">
+                                    <ul class="more cf">
+                                        <li class="left"><img src="images/y17.png" alt=""><p>马尔科·什佩哈尔 饰 <br/>吕特/克里斯佩尔</p></li>
+                                        <!-- <li class="left"><a target="_block"href="http://ticket.chncpa.org/product-1060186.html" class="lj">了解更多</a></li> -->
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <div class="swiper-button-prev swiper-button-prev2"></div>
+                            <div class="swiper-button-next swiper-button-next2"></div>
+                        </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="ds">
+        <div class="inner">
+            <h4><img src="images/ds_t.png" alt=""></h4>
+            <h2>奥芬巴赫的音乐和戏剧 </h2>
+            <p class="name">许渌洋</p>
+            <div class="scroll_wrap scroll_wrap2">
+                <div class="scroll_cont scroll_cont2">
+                    <p></p>
+                    <p>在世时风光无限，过世后依然流芳百世，这恐怕是职业作曲家最理想化的状态。然而历史上如愿以偿的作曲家并不算多，德籍法国作曲家雅克.奥芬巴赫(Jacques  Offenbach)却幸运地成为了其中的一份子。</p>
+                    <p>作为19世纪欧洲最活跃的歌剧作曲家之一，奥芬巴赫在世时创作了近100部歌剧作品，其中有90部左右是风靡一时的流行之作，这些作品帮助他在世时取得了巨大的声望，甚至一度被巴黎观众视为是莫扎特式的传奇人物。正是他莫定了轻歌剧(Operetta)这一体裁在欧洲主流舞台上的地位，并成为极少数可与传统正歌剧作曲家分庭抗礼的轻歌剧作曲家。</p>
+                    <p>回顾奥芬巴赫的创作生涯，不难在其身上发现多重民族性情的特征，一方面他有着日耳曼式的坚毅与奋斗精神，又有着法国人丰富的想象力，同时兼具着犹太民族的聪慧和精明。</p>
+                    <p>事实也的确如此，1819年6月20日， 奥芬巴赫出生在德国科隆市的一个犹太教家庭，在家中排行第七。父亲老奥芬巴赫是一位平庸的作曲家和音乐教师，曾在出版社做过装订工人，同时在当地的犹太教堂担任歌手。受他影响，雅克·奥芬巴赫很早就开始接受音乐训练，6岁起学习小提琴，8岁开始接触大提琴，11岁时就经常同他的哥哥和姐姐在星期天和节假日的“娱乐音乐晚会”上演奏音乐。</p>
+                    <p>14岁时，奥芬巴赫随父亲迁徙至巴黎，在作曲家凯鲁比尼听过其出色的大提琴演奏后，立刻决定将其招入巴黎高等音乐学院，主修大提琴，同时也零星的研修作曲课程。然而一年之后，他便离开了学校，以仅仅15岁的年龄开始了此后漫长的职业音乐家生涯。离开学校的最初几年，他在巴黎喜歌剧院担任乐队队员，之后以大提琴家的身份活跃于演奏界，与他同台演出的甚至包括安东·鲁宾斯坦和弗朗茨·李斯特等名家。同时，他也尝试创作舞台音乐，并结识了作曲家阿莱维，后者成为他最为重要的作曲导师。</p>
+                    <p>最初，奥芬巴赫的作品并不很成功，其创作主要是模仿19世纪上半叶以大歌剧为主流的歌剧模式，相比之下倒是他的所创作的圆舞曲受到了一定程度的喜爱，而这些早期作品为其日后的轻歌剧创作打下了基础，旋律优美的圆舞曲、康康舞曲、加洛普舞曲正是其轻歌剧作品中最喜闻乐见的音乐元素。</p>
+                    <p>正可谓时势造英雄，1848年的欧洲革命突如其来， 王室贵族的衰败直接影响了主流歌剧舞台的审美风尚，资产阶精英阶层 开始摒弃传统的大歌剧形式，对津津乐道的调侃，插科打诨的舞台音乐产生了兴趣。而奥芬巴赫敏锐地抓住了观众欣赏口味的变化。</p>
+                    <p>1855年夏，奥芬巴赫通过艰苦的努力开办了“快乐的巴黎人剧院(Boufes-Parisiens)”,除了不断创作用于剧院演出的轻歌剧外，还自行承担经营和管理工作。他与其导师阿莱维的侄子吕多维克·阿莱维(1834- -1908年)通力合作，创作了许多哑剧、诙谐剧和独幕歌剧，使“快乐的巴黎人”很快成为巴黎最具影响力的舞台之一。</p>
+                    <p>1858年， 年近不惑的奥芬巴赫迎来了他创作生涯的第一个高峰，轻歌剧《地狱中的奥菲欧》一经推出便大受欢迎，此后他又完成了如《美丽的海伦》(1864)、《巴黎人的生活》(1866) 、《格罗什坦公爵夫人》(1867) 等杰出的轻歌剧作品。而1868年的《拉·佩丽肖尔》则被视为是他轻歌剧创作的巅峰之作，而其所流露出的抒情特征直接指向了他创作生涯的最后一部歌剧《霍夫曼的故事》。</p>
+                    <p>1870年，随着拿破仑三世在普法战争中的失败和第二法兰西帝国的瓦解，奥芬巴赫经营了15年的轻歌剧舞台开始蒙尘。由于经营不善，“快乐的巴黎人”剧院因债务问题在1874年宣告破产。为了改善经济状况，奥芬巴赫在此后几年频繁展开国际演出活动，过度的演出、排练和旅行令其健康状况堪忧，虽然他同期的几部新作逐步恢复了以往的受欢迎程度，但作曲家本人似乎冥冥中意识到自已来日无多。</p>
+                    <p>正是在这一阶段，奥芬巴赫矢志于创造一部可以名垂青史的严肃歌剧作品，这就是《霍夫曼的故事》。对于作曲家而言，这部作品带有浓重的怀旧气息，无论是剧中人物的心境，还是剧中配乐的风格都宛如是对奥芬巴赫艺术生涯的总结。然而令人唏嘘的是，1880年， 当奥芬巴赫在巴黎投入到《霍夫曼的故事》的紧张排练时，却因健康恶化于当年秋天病逝。</p>
+                    <p>1881年2月，《霍夫曼的故事》在巴黎首演，奥芬巴赫本人没能见证自己这部“天鹅之歌”的问世，但该剧却如他所愿地在此后一个多世纪里成为全球歌剧舞台最常上演的法语歌剧，能与之媲美的似乎只有比才的《卡门》和古诺的《罗密欧与朱丽叶》。</p>
+
+
+                </div>
+                <div class="scroll_bar scroll_bar2">
+                        <div class="scroll_slider scroll_slider2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ldsx">
+        <div class="inner">
+            <h4><img src="images/ldsx_t.png" alt=""></h4>
+            <ol class="tabs cf ">
+                <li class="tab left active"><a href="">黄金唱段</a></li> 
+                <li class="tab left"><a href="">历史精彩</a></li> 
+            </ol>
+            <ul class="tabContents">
+                <li class="tabContent" style="position:relative">
+                    <!-- <ul class="ro">
+                        <li>
+                            <h5>酒之精灵合唱</h5>
+                            <p>短暂的序曲之后，歌剧一开场，纽伦堡路德酒馆里热闹的场面就由合唱团表现了出来。这段《酒之精灵》(“Glou! Glou! Glou!”)合唱并不长，但十分有气氛。形象的拟声“GIou"描绘了气泡声，两组人马中男高音和男低音分别代表葡萄酒和啤酒，伴随着“Glou的合唱，竖琴、长笛和单簧管在后场和乐池呼应，音乐层次感十分丰富，和热闹的场面交相辉映。</p>
+                            <a href="javascript:;" class="pl pl1">
+                                <img src="images/sj.png" alt="">
+                                <p>播放音频</p>
+                            </a>
+                        </li>
+                        <li>
+                            <h5>霍夫曼的咏叹调“侏儒之歌”</h5>
+                            <div class="scroll_wrap ">
+                                <div class="scroll_cont ">
+                                    <p>小酒馆里，学生们催着霍夫曼喝酒唱歌，他兴致高昂地唱起了一首名为克列扎可的传奇的民谣。这是一首脍炙人口的男高音咏叹调，旋律独特，伴奏鲜活，合唱和男高音呼应成趣，叙述的故事也很奇特，一开始说的是丑陋的侏儒克列扎可，然而中段的时候，半醺的霍夫曼又像在描述一一个他认识的大美人。在叙述克列扎可时，音乐上也是采用分节歌的形势，伴奏的长笛俏皮可爱，然而转入描述大美人的时候，浪漫的旋律线条立刻改变了氛围，弦乐齐奏的呼应也充满浪漫的美好想象。
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <a href="javascript:;" class="pl pl2">
+                                    <img src="images/sj.png" alt="">
+                                    <p>播放音频</p>
+                                </a>
+                        </li>
+                        <li>
+                                <h5>奥林匹亚的咏叹调“玩偶之歌”</h5>
+                                <div class="scroll_wrap1">
+                                    <div class="scroll_cont ">
+                                        <p>这首“玩偶之歌”又叫“林中的小鸟”  ，是所有花腔女高音的必备曲目，也是歌剧宝库里最著名的咏叹调之一，以其超高难度极为悠长的气息和眩目的花腔闻名退迩，巧妙的模仿机械玩具所发出的尖锐的声音，发条转动的声音，以及发条松时跑调的声音，充满了趣味性，十分生动活泼。玩偶的造型和咏叹调里机械齿轮的幽默桥段都给了舞台上的艺术家极大的可塑空间。交响乐的伴奏在结尾处达到了欢快情绪的最高潮，也隐喻着对霍夫曼的嘲讽。
+                                            </p>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <a href="javascript:;" class="pl pl3">
+                                        <img src="images/sj.png" alt="">
+                                        <p>播放音频</p>
+                                    </a>
+                        </li>
+                        <li>
+                                <h5>安东尼娅的咏叹调“小鸽子飞走了”</h5>
+                                <div class="scroll_wrap ">
+                                    <div class="scroll_cont ">
+                                        <p>有肺病的姑娘安东尼娅面对着羽管键琴，用优美的声音唱出这首咏叹调“小鸽子飞走了”。第三幕开始，竖琴大段的引子后，优美的旋律出现在“小鸽子飞走了”上，并在后面反复重复。宣叙调则描述的是对霍夫曼的热恋。这首咏叹调平静而优美，羽管键琴独特的音色固定打着节拍，如同波浪，更衬托出波浪之上自由飞翔的女高音。
+                                            </p>
+                                    </div>     
+                                </div>
+                                <a href="javascript:;" class="pl pl4">
+                                        <img src="images/sj.png" alt="">
+                                        <p>播放音频</p>
+                                </a>
+                        </li>
+                        <li>
+                                <h5>朱丽叶塔和尼克劳斯的二重唱“船歌”</h5>
+                                <div class="scroll_wrap ">
+                                    <div class="scroll_cont ">
+                                        <p>第四幕一开始就是这首船歌，也叫“迷人之夜，爱情之夜”非常优美抒情，是奥芬巴赫作品中流传最广的一支歌曲，常常作为独唱歌曲在音乐会上演出，不过歌剧里原本的“船歌”却不是一人独唱的曲子。开始时，小提琴高把位的颤音管造出静谧安详的气氛，竖琴模仿了威尼斯河面上“贡多拉”船的节奏，远处传来一段女中音慵懒的歌唱，随后朱丽叶塔和女中音的二重唱响起，随后当“迷人之夜，爱情之夜”再度唱起时，合唱作为背景也加入进来。贡多拉的节奏始终轻轻地伴随着全曲。
+                                            </p>
+                                    </div>     
+                                </div>
+                                <a href="javascript:;" class="pl pl5 ">
+                                    <img src="images/sj.png" alt="">
+                                    <p>播放音频</p>
+                                </a>
+                        </li>
+                        <li>
+                                <h5>达佩图托的咏叹调“闪耀的钻石”</h5>
+                                <div class="scroll_wrap ">
+                                    <div class="scroll_cont ">
+                                        <p>魔术师达佩图托亮出一颗灿烂的钻石，唱出了咏叹调“闪耀的钻石”，叙述灿烂的钻石能捕获云雀，能俘获女人的心。这段男低音咏叹调充满权力色彩，单簧管、巴松的伴奏也非常有特色，为进而告诉她继施莱密尔后的人选就是霍夫曼。
+                                            </p>
+                                    </div>     
+                                </div>
+                                <a href="javascript:;" class="pl pl6">
+                                    <img src="images/sj.png" alt="">
+                                    <p>播放音频</p>
+                                </a>
+                        </li>
+                    </ul> -->
+                    <div class="swiper-container swiper-container6">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                    <ul class="ro">
+                                            <li>
+                                                <h5>“酒之精灵”合唱</h5>
+                                                <p>短暂的序曲之后，歌剧一开场，纽伦堡路德酒馆里热闹的场面就由合唱团表现了出来。这段“酒之精灵”(“Glou! Glou! Glou!”)合唱并不长，但十分有气氛。形象的拟声“GIou”描绘了气泡声，两组人马中男高音和男低音分别代表葡萄酒和啤酒，伴随着“Glou”的合唱，竖琴、长笛和单簧管在后场和乐池呼应，音乐层次感十分丰富，和热闹的场面交相辉映。</p>
+                                                <a href="javascript:;" class="pl pl1">
+                                                    <img src="images/sj.png" alt="">
+                                                    <p>播放音频</p>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <h5>霍夫曼的咏叹调“侏儒之歌”</h5>
+                                                <div class="scroll_wrap ">
+                                                    <div class="scroll_cont ">
+                                                        <p>小酒馆里，学生们催着霍夫曼喝酒唱歌，他兴致高昂地唱起了一首名为克列扎可的传奇的民谣。这是一首脍炙人口的男高音咏叹调，旋律独特，伴奏鲜活，合唱和男高音呼应成趣，叙述的故事也很奇特，一开始说的是丑陋的侏儒克列扎可，然而中段的时候，半醺的霍夫曼又像在描述一一个他认识的大美人。在叙述克列扎可时，音乐上也是采用分节歌的形势，伴奏的长笛俏皮可爱，然而转入描述大美人的时候，浪漫的旋律线条立刻改变了氛围，弦乐齐奏的呼应也充满浪漫的美好想象。
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                
+                                                <a href="javascript:;" class="pl pl2">
+                                                        <img src="images/sj.png" alt="">
+                                                        <p>播放音频</p>
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                    <h5>奥林匹亚的咏叹调“玩偶之歌”</h5>
+                                                    <div class="scroll_wrap1">
+                                                        <div class="scroll_cont ">
+                                                            <p>这首“玩偶之歌”又叫“林中的小鸟”  ，是所有花腔女高音的必备曲目，也是歌剧宝库里最著名的咏叹调之一，以其超高难度极为悠长的气息和眩目的花腔闻名退迩，巧妙的模仿机械玩具所发出的尖锐的声音，发条转动的声音，以及发条松时跑调的声音，充满了趣味性，十分生动活泼。玩偶的造型和咏叹调里机械齿轮的幽默桥段都给了舞台上的艺术家极大的可塑空间。交响乐的伴奏在结尾处达到了欢快情绪的最高潮，也隐喻着对霍夫曼的嘲讽。
+                                                                </p>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    
+                                                    <a href="javascript:;" class="pl pl3">
+                                                            <img src="images/sj.png" alt="">
+                                                            <p>播放音频</p>
+                                                        </a>
+                                            </li>
+                                    </ul>
+                            </div>
+                            <div class="swiper-slide">
+                                    <ul class="ro">
+                                            
+                                            <li>
+                                                    <h5>安东尼娅的咏叹调“小鸽子飞走了”</h5>
+                                                    <div class="scroll_wrap ">
+                                                        <div class="scroll_cont ">
+                                                            <p>有肺病的姑娘安东尼娅面对着羽管键琴，用优美的声音唱出这首咏叹调“小鸽子飞走了”。第三幕开始，竖琴大段的引子后，优美的旋律出现在“小鸽子飞走了”上，并在后面反复重复。宣叙调则描述的是对霍夫曼的热恋。这首咏叹调平静而优美，羽管键琴独特的音色固定打着节拍，如同波浪，更衬托出波浪之上自由飞翔的女高音。
+                                                                </p>
+                                                        </div>     
+                                                    </div>
+                                                    <a href="javascript:;" class="pl pl4">
+                                                            <img src="images/sj.png" alt="">
+                                                            <p>播放音频</p>
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                    <h5>朱丽叶塔和尼克劳斯的二重唱“船歌”</h5>
+                                                    <div class="scroll_wrap ">
+                                                        <div class="scroll_cont ">
+                                                            <p>第四幕一开始就是这首船歌，也叫“迷人之夜，爱情之夜”非常优美抒情，是奥芬巴赫作品中流传最广的一支歌曲，常常作为独唱歌曲在音乐会上演出，不过歌剧里原本的“船歌”却不是一人独唱的曲子。开始时，小提琴高把位的颤音管造出静谧安详的气氛，竖琴模仿了威尼斯河面上“贡多拉”船的节奏，远处传来一段女中音慵懒的歌唱，随后朱丽叶塔和女中音的二重唱响起，随后当“迷人之夜，爱情之夜”再度唱起时，合唱作为背景也加入进来。“贡多拉”的节奏始终轻轻地伴随着全曲。
+                                                                </p>
+                                                        </div>     
+                                                    </div>
+                                                    <a href="javascript:;" class="pl pl5 ">
+                                                        <img src="images/sj.png" alt="">
+                                                        <p>播放音频</p>
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                    <h5>达佩图托的咏叹调“闪耀的钻石”</h5>
+                                                    <div class="scroll_wrap ">
+                                                        <div class="scroll_cont ">
+                                                            <p>魔术师达佩图托亮出一颗灿烂的钻石，唱出了咏叹调“闪耀的钻石”，叙述灿烂的钻石能捕获云雀，能俘获女人的心。这段男低音咏叹调充满权力色彩，单簧管、巴松的伴奏也非常有特色，为进而告诉她继施莱密尔后的人选就是霍夫曼。
+                                                                </p>
+                                                        </div>     
+                                                    </div>
+                                                    <a href="javascript:;" class="pl pl6">
+                                                        <img src="images/sj.png" alt="">
+                                                        <p>播放音频</p>
+                                                    </a>
+                                            </li>
+                                    </ul>
+                            </div>
+                            
+                        </div>
+                           
+                    </div>
+                    <div class="swiper-button-prev swiper-button-prev6" style="left:-40px;"></div>
+                    <div class="swiper-button-next swiper-button-next6" style="right:-40px;"></div> 
+                </li>
+                <li class="tabContent history">
+                    <div class="swiper-container swiper-container3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="images/h1.jpg" alt=""><p>霍夫曼和尼克劳斯在纽伦堡的酒馆里。</p></div>
+                            <div class="swiper-slide"><img src="images/h2.jpg" alt=""><p>霍夫曼在酒馆里跟自己的学生朋友们讲故事。</p></div>
+                            <div class="swiper-slide"><img src="images/h3.jpg" alt=""><p>巴黎“神秘博士”的实验室。</p></div>
+                            <div class="swiper-slide"><img src="images/h4.jpg" alt=""><p>霍夫曼与“机器娃娃”奥林匹亚。</p></div>
+                            <div class="swiper-slide"><img src="images/h5.jpg" alt=""><p>霍夫曼与“病弱少女”安东尼娅。</p></div>
+                            <div class="swiper-slide"><img src="images/h6.jpg" alt=""><p>安东尼娅在歌唱。</p></div>
+                            <div class="swiper-slide"><img src="images/h7.jpg" alt=""><p>水城威尼斯的“贡多拉”。</p></div>
+                            <div class="swiper-slide"><img src="images/h8.jpg" alt=""><p>霍夫曼与朱丽叶塔紧紧相拥。</p></div>
+                            <div class="swiper-slide"><img src="images/h9.jpg" alt=""><p>霍夫曼与朱丽叶塔深情对唱。</p></div>
+                            <div class="swiper-slide"><img src="images/h10.jpg" alt=""><p>霍夫曼和三段故事中的女主角。</p></div>
+                        </div>
+                        
+                    </div>
+                    <div class="swiper-pagination swiper-pagination3"></div>
+                    <div class="swiper-button-prev swiper-button-prev3"></div>
+                    <div class="swiper-button-next swiper-button-next3"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mhtm">
+        <div class="inner">
+            <h4 style="margin-bottom:0;"><img src="images/mhtm_t.png" alt=""></h4>
+                <ol class="tabs cf ">
+                    <li class="tab left active"><a href="">服装</a></li> 
+                    <li class="tab left"><a href="">舞台</a></li> 
+                </ol>
+                <ul class="tabContents">
+                    <li class="tabContent history">
+                            <div class="swiper-container swiper-container4"style="background:#fff;text-align:center" >
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/f1.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/f2.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/f6.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/f5.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/f4.jpg" alt=""></div>    
+                                        <div class="swiper-slide"><img src="images/f3.jpg" alt=""></div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-pagination swiper-pagination4"></div>
+                                <div class="swiper-button-prev swiper-button-prev4"></div>
+                                <div class="swiper-button-next swiper-button-next4"></div>
+                                <div class="des" style="width:1000px;color:#fff;font-size: 16px;text-align: justify;text-indent:2em;margin:0 auto;line-height: 24px; margin-top:20px;">
+                                    <p>全剧共有289套服装，有时甚至需要瞬间将场景及所有人物造型变一番景象，堪称是大剧院众多演出中对换装要求最高的歌剧之一。 </p>
+                                    
+                                </div>
+                    </li>
+                    <li class="tabContent history">
+                            <div class="swiper-container swiper-container5">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="images/w1.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/w2.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/w3.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/w4.jpg" alt=""></div>
+                                        <div class="swiper-slide"><img src="images/w5.jpg" alt=""></div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-pagination swiper-pagination5"></div>
+                                <div class="swiper-button-prev swiper-button-prev5"></div>
+                                <div class="swiper-button-next swiper-button-next5"></div>
+                                <div class="des" style="width:1000px;color:#fff;font-size: 16px;text-align: justify;text-indent:2em;margin:0 auto;line-height: 24px;margin-top:20px;">
+                                    <p>全剧共分五幕，加上序幕和尾声，随着主人公的回忆，各幕场景在纽伦堡、慕尼黑和威尼斯之间变换，舞美花样繁复，制作非常复杂。舞台上将呈现科学怪人的机械实验室，魅影出没的音乐之屋，以及唯美奢华的威尼斯“贡多拉”。 </p>
+                                    <p>剧中还有许多有趣的道具，比如第一幕中出现的魔术眼镜，透过眼镜看，机器娃娃就像真人一样，设计灵感来源于“蒸汽朋克”风格，模仿19世纪的维多利亚式机械制造法，运用大量的齿轮，是复古的“科幻主义”。</p>
+                                </div>
+                    </li>
+                </ul>
+        </div>
+    </div>
+    <div class="mtbd wrap">
+         <div class="inner">
+                <h4><img src="images/mtzs_t.png" alt=""></h4>
+         
+            <ul class="">
+                    <li><a tartget="_block" href="http://www.chncpa.org/zxdtxlm/rdjjjhlm/rdjj_wx/201906/t20190620_204734.shtml"><p>今天，“轻歌剧之父”诞辰200周年 <span>2019/06/20</span></p></a></li>
+                    <li><a tartget="_block" href="http://www.chncpa.org/zxdtxlm/mtsj_2993/201906/t20190621_204782.shtml"><p>国家大剧院重排《霍夫曼的故事》，这版演员更有个性  <span>2019/06/20</span></p></a></li>
+
+
+                <li><a tartget="_block"href="http://www.chncpa.org/zxdtxlm/mtsj_2993/201906/t20190618_204551.shtml"><p>北京商报 ——  《霍夫曼的故事》展现瑰丽幻想<span>2019/06/14</span></p></a></li>
+                <li><a tartget="_block" href="http://www.chncpa.org/zxdtxlm/jyxw_2994/201906/t20190612_204043.shtml"><p>国家大剧院  ——  国家大剧院版《霍夫曼的故事》再度出山 <span>2019/06/12</span></p></a></li>
+                
+            </ul>
+        </div>
+    </div> 
+    <div class="footer">
+            <div class="inner">
+                 <ul>
+                     <li class="about">
+                         <p class="p1">@国家大剧院</p>
+                         <p class="p2">国家大剧院公众号：ncpa665500000</p>
+                         <div class="ewm">
+                             <img src="images/wx_gzh.jpg" alt="">
+                             <div class="gzh">
+                                     <p class="p3">或者扫描二维码关注</p>
+                                     <p class="p4">国家大剧院公众号</p>
+                             </div>
+                             
+                         </div>
+                     </li>
+                     <li><img src="images/footer_logo.png" alt=""></li>
+                 </ul>
+            </div>
+    </div>
+    <div class="top" style="right:26px;top:660px;z-index:999;">
+        <a href="javascript:;"><img src="images/top.png" alt=""></a>
+    </div>
+    <div class="ewm" style="position:fixed;top:100px;right:-20px;z-index:999;">
+        <img src="images/ewm.png" alt="">
+        <a href="javascript:;" class="co" style="position:absolute;top:48px;right:42px;font-size: 24px;color:#fff;transform: rotate(45deg);">+</a>
+    </div>
+    <div class="ewm1" style="position:fixed;top:350px;right:-20px;z-index:999;">
+        <img src="images/ewm1.png" alt="">
+        <a href="javascript:;" class="co1" style="position:absolute;top:48px;right:42px;font-size: 24px;color:#fff;transform: rotate(45deg);">+</a>
+    </div>
+    <script src="lib/jquery/jquery-2.1.1.min.js"></script>
+    <script src="lib/jqueryrotate.js"></script>
+    <!-- <script src="lib/resLoader.js"></script> -->
+    <script src="js/style.js"></script>
+    <script src="lib/swiper.min.js"></script>
+    <script src="lib/wow.min.js"></script>
+    <script src="lib/scrollbar.js"></script>   
+    <script>          
+    var mySwiper = new Swiper ('.swiper-container1', {
+      loop: true, // 循环模式选项      
+      // 如果需要前进后退按钮
+      navigation: {
+      nextEl: '.swiper-button-next1',
+      prevEl: '.swiper-button-prev1',
+    },
+    noSwiping : true,
+    observer:true,//修改swiper自己或子元素时，自动初始化swiper
+    observeParents:true,//修改swiper的父元素时，自动初始化swiper
+    })    
+
+    var swiperpl = new Swiper('.swiper-container2', {
+        loop: true, // 循环模式选项      
+      // 如果需要前进后退按钮
+      navigation: {
+      nextEl: '.swiper-button-next2',
+      prevEl: '.swiper-button-prev2',
+    },
+    noSwiping : true,
+    observer:true,//修改swiper自己或子元素时，自动初始化swiper
+    observeParents:true,//修改swiper的父元素时，自动初始化swiper
+        roundLengths : true, //防止文字模糊
+    });
+    var mySwiper = new Swiper ('.swiper-container3', {
+      loop: true, // 循环模式选项      
+      // 如果需要前进后退按钮
+      navigation: {
+      nextEl: '.swiper-button-next3',
+      prevEl: '.swiper-button-prev3',
+    },
+    pagination: {
+    el: '.swiper-pagination3',
+    //type: 'bullets',
+    type: 'fraction',
+    //type : 'progressbar',
+    //type : 'custom',
+    },
+    noSwiping : true,
+    observer:true,//修改swiper自己或子元素时，自动初始化swiper
+    observeParents:true,//修改swiper的父元素时，自动初始化swiper
+    })  
+    var mySwiper = new Swiper ('.swiper-container4', {
+        loop: true, // 循环模式选项      
+      // 如果需要前进后退按钮
+      navigation: {
+      nextEl: '.swiper-button-next4',
+      prevEl: '.swiper-button-prev4',
+    },
+    pagination: {
+    el: '.swiper-pagination4',
+    //type: 'bullets',
+    type: 'fraction',
+    //type : 'progressbar',
+    //type : 'custom',
+    },
+    noSwiping : true,
+    observer:true,//修改swiper自己或子元素时，自动初始化swiper
+    observeParents:true,//修改swiper的父元素时，自动初始化swiper
+    })  
+    var mySwiper = new Swiper ('.swiper-container5', {
+        loop: true, // 循环模式选项      
+      // 如果需要前进后退按钮
+      navigation: {
+      nextEl: '.swiper-button-next5',
+      prevEl: '.swiper-button-prev5',
+    },
+    pagination: {
+    el: '.swiper-pagination5',
+    //type: 'bullets',
+    type: 'fraction',
+    //type : 'progressbar',
+    //type : 'custom',
+    },
+    noSwiping : true,
+    observer:true,//修改swiper自己或子元素时，自动初始化swiper
+    observeParents:true,//修改swiper的父元素时，自动初始化swiper
+    })  
+    var mySwiper = new Swiper ('.swiper-container6', {
+      loop: true, // 循环模式选项      
+      // 如果需要前进后退按钮
+      navigation: {
+      nextEl: '.swiper-button-next6',
+      prevEl: '.swiper-button-prev6',
+    },
+    noSwiping : true,
+    observer:true,//修改swiper自己或子元素时，自动初始化swiper
+    observeParents:true,//修改swiper的父元素时，自动初始化swiper
+    })   
+</script>
+<script>
+    new WOW().init();
+    //齿轮动画
+    $(function(){
+$('.co').click(function(){
+    $('.ewm').fadeOut();
+});
+$('.co1').click(function(){
+    $('.ewm1').fadeOut();
+});
+$('.lun li .lu').eq(0).rotate({
+        angle: 0, 
+        animateTo: 360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun li .lu').eq(1).rotate({
+        angle: 0, 
+        animateTo: -360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun li .lu').eq(2).rotate({
+        angle: 0, 
+        animateTo: 360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun li .lu').eq(3).rotate({
+        angle: 0, 
+        animateTo: -360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun li .lu').eq(4).rotate({
+        angle: 0, 
+        animateTo: 360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun li .lu').eq(5).rotate({
+        angle: 0, 
+        animateTo: -360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun ol li .q1').rotate({
+        angle: 0, 
+        animateTo: 360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun ol li .q2').rotate({
+        angle: 0, 
+        animateTo: -360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun ol li .q3').rotate({
+        angle: 0, 
+        animateTo: 360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun ol li .q4').rotate({
+        angle: 0, 
+        animateTo: -360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun ol li .q5').rotate({
+        angle: 0, 
+        animateTo: 360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun ol li .q6').rotate({
+        angle: 0, 
+        animateTo: -360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+$('.lun ol li .q7').rotate({
+        angle: 0, 
+        animateTo: -360,
+        duration:5000, 
+        easing: function(x,t,b,c,d){
+            return c*(t/d)+b;
+        }
+});
+    });
+</script>
+</body>
+<!-- Gridsum tracking code begin. -->
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fc0f83d11c5318938a003c0a00dcded64' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- Gridsum tracking code begin. -->
+<script type='text/javascript'>
+    (function () {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = (location.protocol == 'https:' ? 'https://ssl.' : 'http://static.') + 'gridsumdissector.com/js/Clients/GWD-002230-464E3B/gs.js';
+        var firstScript = document.getElementsByTagName('script')[0];
+        firstScript.parentNode.insertBefore(s, firstScript);
+    })();
+</script>
+<!--Gridsum tracking code end. -->
+</html>
